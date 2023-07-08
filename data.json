@@ -1,4 +1,12 @@
 {
+  "custom_messages": [
+    {
+      "type": "bmp",
+      "text": "/images/bear.bmp",
+      "x": 5,
+      "y": 5
+    }
+  ],
   "clock": {
     "am_color": "0x00aaaa",
     "pm_color": "0xaaaa00"
