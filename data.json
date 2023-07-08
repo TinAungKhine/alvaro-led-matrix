@@ -3,21 +3,21 @@
     {
       "type": "label",
       "text": "Happy",
-      "color" "0x00aaaa",
+      "color" 0x00aaaa,
       "x": 5,
       "y": 5
     },
     {
       "type": "label",
       "text": "Happy",
-      "color" "0x00aaaa",
+      "color" 0x00aaaa,
       "x": 5,
       "y": 15
     },
     {
       "type": "label",
       "text": "Happy",
-      "color" "0x00aaaa",
+      "color" 0x00aaaa,
       "x": 5,
       "y": 25
     }
