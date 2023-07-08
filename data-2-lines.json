@@ -1,0 +1,14 @@
+[
+  {
+    "type": "label",
+    "text": "1234567890",
+    "color" "0x00aaaa",
+    "y": 9
+  },
+  {
+    "type": "label",
+    "text": "1234567890",
+    "color" "0x00aaaa",
+    "y": 23
+  }
+]
