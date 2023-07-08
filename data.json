@@ -1,13 +1,13 @@
 [
   {
-    "type": "label",
-    "text": "1234567890",
+    "type": "scrolling_label",
+    "text": "Happy Birthday To You!",
     "color" "0x00aaaa",
     "y": 9
   },
   {
-    "type": "label",
-    "text": "1234567890",
+    "type": "scrolling_label",
+    "text": "Happy Birthday To You! Happy Birthday To You! Happy Birthday To You! Happy Birthday To You!",
     "color" "0x00aaaa",
     "y": 23
   }
