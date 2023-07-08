@@ -3,11 +3,11 @@
     {
       "type": "bmp",
       "text": "/images/bear-yellow.bmp",
-      "x": 33,
+      "x": 32,
       "y": 0
     },
     {
-      "type": "label",
+      "type": "scrolling_label",
       "text": "Happy",
       "color" "0xaa0000",
       "x": 1,
@@ -15,14 +15,14 @@
     },
     ,
     {
-      "type": "label",
+      "type": "scrolling_label",
       "text": "Birth",
       "color" "0x00aa00",
       "x": 1,
       "y": 16
     },
     {
-      "type": "label",
+      "type": "scrolling_label",
       "text": "Day:)",
       "color" "0x0000aa",
       "x": 1,
