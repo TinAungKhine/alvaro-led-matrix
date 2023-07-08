@@ -1,5 +1,25 @@
 {
-  "message": {
-    "lines": []
-  }
+  "message": [
+    {
+      "type": "label",
+      "text": "Happy",
+      "color" "0xaaaa00",
+      "x": 5,
+      "y": 5
+    },
+    {
+      "type": "label",
+      "text": "Happy",
+      "color" "0xaaaa00",
+      "x": 5,
+      "y": 15
+    },
+    {
+      "type": "label",
+      "text": "Happy",
+      "color" "0xaaaa00",
+      "x": 5,
+      "y": 25
+    }
+  ]
 }
