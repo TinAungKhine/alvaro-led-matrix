@@ -2,7 +2,7 @@
   "custom_messages": [
     {
       "type": "bmp",
-      "text": "/images/bear.bmp",
+      "text": "/images/bear-yellow.bmp",
       "x": 33,
       "y": 0
     },
