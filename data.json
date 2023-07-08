@@ -1,12 +1,19 @@
 {
   "custom_messages": [
-    
+    {
+      "type": "label",
+      "text": "Tiny said ...",
+      "color": "0xaa0000",
+      "x": 1,
+      "y": 10
+    },
     {
       "type": "scrolling_label",
-      "text": "Happy",
-      "color" "0xaa0000",
-      "x": 0,
-      "y": 5
+      "text": "Bear, you can please stop whining! Stop Whining! STOP WHINING........ ",
+      "color": "0x0000aa",
+      "animate_time": 0.2,
+      "x": 1,
+      "y": 20
     }
   ],
   "clock": {
