@@ -1,33 +1,13 @@
 {
   "custom_messages": [
-    {
-      "type": "bmp",
-      "text": "/images/bear-yellow.bmp",
-      "x": 32,
-      "y": 0
-    },
+    
     {
       "type": "scrolling_label",
       "text": "Happy",
       "color" "0xaa0000",
-      "x": 1,
+      "x": 0,
       "y": 5
-    },
-    ,
-    {
-      "type": "scrolling_label",
-      "text": "Birth",
-      "color" "0x00aa00",
-      "x": 1,
-      "y": 16
-    },
-    {
-      "type": "scrolling_label",
-      "text": "Day:)",
-      "color" "0x0000aa",
-      "x": 1,
-      "y": 25
-    },
+    }
   ],
   "clock": {
     "am_color": "0x00aaaa",
