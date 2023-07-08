@@ -1,5 +1,5 @@
 {
-  "clock_colors": {
+  "clock": {
     "am_color": "0x00aaaa",
     "pm_color": "0xaaaa00"
   },
