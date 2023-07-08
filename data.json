@@ -2,23 +2,20 @@
   "custom_messages": [
     {
       "type": "label",
-      "text": "Happy",
+      "text": "0123456789",
       "color" "0x00aaaa",
-      "x": 5,
       "y": 5
     },
     {
       "type": "label",
       "text": "0123456789",
       "color" "0x00aaaa",
-      "x": 5,
       "y": 15
     },
     {
       "type": "label",
-      "text": "Happy",
+      "text": "0123456789",
       "color" "0x00aaaa",
-      "x": 5,
       "y": 25
     }
   ],
