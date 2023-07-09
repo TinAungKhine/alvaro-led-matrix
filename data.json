@@ -4,15 +4,22 @@
       "type": "scrolling_label",
       "text": "Bear, you can please stop whining! Stop Whining! STOP WHINING........ ",
       "color": "0x00aa00",
-      "animate_time": 0.2,
-      "y": 10
+      "animate_time": 0.1,
+      "y": 5
     },
     {
       "type": "scrolling_label",
       "text": "Bear, you can please stop whining! Stop Whining! STOP WHINING........ ",
       "color": "0x0000aa",
       "animate_time": 0.2,
-      "y": 20
+      "y": 15
+    },
+    {
+      "type": "scrolling_label",
+      "text": "Bear, you can please stop whining! Stop Whining! STOP WHINING........ ",
+      "color": "0xaa0000",
+      "animate_time": 0.3,
+      "y": 25
     }
   ],
   "clock": {
