@@ -2,17 +2,45 @@
   "custom_messages": [
     {
       "type": "bmp",
-      "text": "/images/bear.bmp",
+      "text": "/images/bear-white.bmp",
       "x": 0,
       "y": 0
     },
     {
-      "type": "scrolling_label",
-      "text": "Bear, can you please stop whining! Stop Whining! JUST STOP WHINING        ",
-      "color": "0xaa0000",
-      "animate_time": 0.2,
-      "x": 32,
+      "type": "label",
+      "text": "Happy",
+      "color" "0x00aaaa",
+      "x": 33,
+      "y": 5
+    },
+    {
+      "type": "label",
+      "text": "Bear",
+      "color" "0xaa00aa",
+      "x": 33,
       "y": 16
+    },
+    ,
+    {
+      "type": "label",
+      "text": "Bear",
+      "color" "0xaa00aa",
+      "x": 53,
+      "y": 16
+    },
+    {
+      "type": "label",
+      "text": "Day:)",
+      "color" "0xaaaa00",
+      "x": 33,
+      "y": 25
+    },
+    {
+      "type": "label",
+      "text": "Happy",
+      "color" "0x00aaaa",
+      "x": 32,
+      "y": 25
     }
   ],
   "clock": {
