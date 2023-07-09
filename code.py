@@ -27,6 +27,7 @@ except ImportError:
 # --- Display setup ---
 matrix = Matrix()
 display = matrix.display
+
 network = Network(status_neopixel=board.NEOPIXEL, debug=False)
 
 # ----------------------------------------------------------------------------------------------------------------------------
@@ -60,7 +61,6 @@ clock_label = Label(font)
 
 last_check = None
 group_clock.append(clock_label)  # add the clock label to the group
-
 
 
 def update_time(*, hours=None, minutes=None, show_colon=True, am_color, pm_color):
@@ -159,22 +159,22 @@ group_hb = displayio.Group()
 hb_line1 = Label(terminalio.FONT)
 hb_line1.x = 33
 hb_line1.y = 5
-hb_line1.color = 0x0000aa
+hb_line1.color = 0xFF0000
 hb_line1.text = 'Happy'
 hb_line2 = Label(terminalio.FONT)
 hb_line2.x = 33
 hb_line2.y = 16
-hb_line2.color = 0xaa0000
+hb_line2.color = 0x00FF00
 hb_line2.text = 'Bear'
 hb_line22 = Label(terminalio.FONT)
 hb_line22.x = 53
 hb_line22.y = 16
-hb_line22.color = 0xaa0000
+hb_line22.color = 0x00FF00
 hb_line22.text = 'th'
 hb_line3 = Label(terminalio.FONT)
 hb_line3.x = 33
 hb_line3.y = 25
-hb_line3.color = 0x00aa00
+hb_line3.color = 0x0000FF
 hb_line3.text = 'Day:)'
 
 
@@ -199,10 +199,6 @@ weather_unit = 'metric'
 gfx = openweather_graphics.OpenWeather_Graphics(
     display, am_pm=True, units=weather_unit
 )
-
-# ----------------------------------------------------------------------------------------------------------------------------
-# Overwrite Custom Message
-# ----------------------------------------------------------------------------------------------------------------------------
 
 
 while True:
@@ -234,6 +230,10 @@ while True:
         print ("Cannot load 'weather'")
 
 
+
+    # ----------------------------------------------------------------------------------------------------------------------------
+    # Overwrite Custom Message
+    # ----------------------------------------------------------------------------------------------------------------------------
     if messages is not None and len(messages) > 0:
         try:
             group_custom_message = displayio.Group()
@@ -281,6 +281,10 @@ while True:
             time.sleep(60)
             messages = []
 
+
+    # ----------------------------------------------------------------------------------------------------------------------------
+    # Clock
+    # ----------------------------------------------------------------------------------------------------------------------------
     elif menu_option == 0:
         if last_check is None or time.monotonic() > last_check + 3600:
             try:
@@ -299,7 +303,11 @@ while True:
 
         # localtime_refresh = None
         weather_refresh = None
-        
+      
+
+    # ----------------------------------------------------------------------------------------------------------------------------
+    # Weather App
+    # ----------------------------------------------------------------------------------------------------------------------------
     elif menu_option == 1:
         # Use cityname, country code where countrycode is ISO3166 format.
         # E.g. "New York, US" or "London, GB"
@@ -340,7 +348,6 @@ while True:
         # Pause between labels
         time.sleep(SCROLL_HOLD_TIME)
 
-    print(menu_option)
 
     if not button_down.value:
         display.show(group_loading)
