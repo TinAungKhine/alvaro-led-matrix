@@ -25,13 +25,13 @@
       "text": "th",
       "color" "0xaa00aa",
       "x": 53,
-      "y": 25
+      "y": 16
     },
     {
       "type": "label",
       "text": "Day:)",
       "color" "0xaaaa00",
-      "x": 32,
+      "x": 33,
       "y": 25
     }
   ],
