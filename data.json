@@ -1,25 +1,16 @@
 {
   "custom_messages": [
     {
-      "type": "scrolling_label",
-      "text": "Bear, can you please stop whining! Stop Whining! JUST STOP WHINING        ",
-      "color": "0x00aa00",
-      "animate_time": 0.3,
-      "y": 5
+      "type": "label",
+      "text": "1234567890",
+      "color" "0x00aaaa",
+      "y": 9
     },
     {
-      "type": "scrolling_label",
-      "text": "Bear, can you please stop whining! Stop Whining! JUST STOP WHINING        ",
-      "color": "0x0000aa",
-      "animate_time": 0.2,
-      "y": 15
-    },
-    {
-      "type": "scrolling_label",
-      "text": "Bear, can you please stop whining! Stop Whining! JUST STOP WHINING        ",
-      "color": "0xaa0000",
-      "animate_time": 0.1,
-      "y": 25
+      "type": "label",
+      "text": "1234567890",
+      "color" "0x00aaaa",
+      "y": 23
     }
   ],
   "clock": {
