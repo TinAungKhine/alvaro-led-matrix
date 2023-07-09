@@ -2,14 +2,14 @@
   "custom_messages": [
     {
       "type": "bmp",
-      "text": "/images/bear-yellow.bmp",
+      "text": "/images/bear-blue.bmp",
       "x": 0,
       "y": 0
     },
     {
       "type": "label",
       "text": "Happy",
-      "color" "0xaa0000",
+      "color" "0xaaaa00",
       "x": 33,
       "y": 5
     },
