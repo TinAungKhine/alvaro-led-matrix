@@ -1,14 +1,24 @@
-[
-  {
-    "type": "label",
-    "text": "1234567890",
-    "color" "0x00aaaa",
-    "y": 9
+{
+  "custom_messages": [
+    {
+      "type": "label",
+      "text": "1234567890",
+      "color" "0x00aaaa",
+      "y": 9
+    },
+    {
+      "type": "label",
+      "text": "1234567890",
+      "color" "0x00aaaa",
+      "y": 23
+    }
+  ],
+  "clock": {
+    "am_color": "0x00aaaa",
+    "pm_color": "0xaaaa00"
   },
-  {
-    "type": "label",
-    "text": "1234567890",
-    "color" "0x00aaaa",
-    "y": 23
+  "weather": {
+    "unit": "metric",
+    "location": "New York, US"
   }
-]
+}
