@@ -1,7 +1,7 @@
 {
   "custom_messages": [
     {
-      "type": "scrolling_label",
+      "type": "label",
       "text": "Tiny said",
       "color": "0x0000aa",
       "y": 9
