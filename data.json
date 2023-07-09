@@ -4,7 +4,7 @@
   ],
   "clock": {
     "am_color": "0x005555",
-    "pm_color": "0xaaaa00"
+    "pm_color": "0x555500"
   },
   "weather": {
     "unit": "metric",
