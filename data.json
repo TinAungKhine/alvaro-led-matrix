@@ -9,7 +9,7 @@
     {
       "type": "label",
       "text": "Happy",
-      "color" "0x00aaaa",
+      "color" "0xaaaa00",
       "x": 33,
       "y": 5
     },
@@ -30,7 +30,7 @@
     {
       "type": "label",
       "text": "Day:)",
-      "color" "0xaaaa00",
+      "color" "0x00aaaa",
       "x": 33,
       "y": 25
     }
