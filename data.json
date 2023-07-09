@@ -6,7 +6,7 @@
     "pm_color": "0xaaaa00"
   },
   "weather": {
-    "unit": "metric",
+    "unit": "imperial",
     "location": "New York, US"
   }
 }
