@@ -2,7 +2,7 @@
   "custom_messages": [
     {
       "type": "bmp",
-      "text": "/images/bear-white.bmp",
+      "text": "/images/bear-red.bmp",
       "x": 0,
       "y": 0
     },
@@ -20,25 +20,17 @@
       "x": 33,
       "y": 16
     },
-    ,
     {
       "type": "label",
-      "text": "Bear",
+      "text": "th",
       "color" "0xaa00aa",
       "x": 53,
-      "y": 16
+      "y": 25
     },
     {
       "type": "label",
       "text": "Day:)",
       "color" "0xaaaa00",
-      "x": 33,
-      "y": 25
-    },
-    {
-      "type": "label",
-      "text": "Happy",
-      "color" "0x00aaaa",
       "x": 32,
       "y": 25
     }
