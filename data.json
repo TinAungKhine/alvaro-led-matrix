@@ -1,38 +1,17 @@
 {
   "custom_messages": [
     {
-      "type": "bmp",
-      "text": "/images/bear-blue.bmp",
-      "x": 0,
-      "y": 0
+      "type": "label",
+      "text": "Tiny said",
+      "color": "0x0000aa",
+      "y": 9
     },
     {
-      "type": "label",
-      "text": "Happy",
-      "color" "0xaaaa00",
-      "x": 33,
-      "y": 5
-    },
-    {
-      "type": "label",
-      "text": "Bear",
-      "color" "0xaa00aa",
-      "x": 33,
-      "y": 16
-    },
-    {
-      "type": "label",
-      "text": "th",
-      "color" "0xaa00aa",
-      "x": 53,
-      "y": 16
-    },
-    {
-      "type": "label",
-      "text": "Day:)",
-      "color" "0x00aaaa",
-      "x": 33,
-      "y": 25
+      "type": "scrolling_label",
+      "text": "Bear, can you please stop whining! Stop Whining! JUST STOP WHINING        ",
+      "color": "0xaa0000",
+      "animate_time": 0.2,
+      "y": 23
     }
   ],
   "clock": {
