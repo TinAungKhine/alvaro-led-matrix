@@ -1,6 +1,32 @@
 {
   "custom_messages": [
-   
+   {
+      "type": "bmp",
+      "text": "/images/bear-yellow.bmp",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "type": "label",
+      "text": "Good",
+      "color" "0xaaaa00",
+      "x": 33,
+      "y": 5
+    },
+    {
+      "type": "label",
+      "text": "Night",
+      "color" "0xaa00aa",
+      "x": 33,
+      "y": 16
+    },
+    {
+      "type": "label",
+      "text": "Bear",
+      "color" "0x00aaaa",
+      "x": 33,
+      "y": 25
+    }
   ],
   "clock": {
     "am_color": "0x000055",
