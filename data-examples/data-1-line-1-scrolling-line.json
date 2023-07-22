@@ -2,20 +2,20 @@
   "custom_messages": [
     {
       "type": "label",
-      "text": "Tiny said",
+      "text": "Good Night",
       "color": "0x0000aa",
       "y": 9
     },
     {
       "type": "scrolling_label",
-      "text": "Bear, can you please stop whining! Stop Whining! JUST STOP WHINING        ",
+      "text": "Bear, please stop whining! Stop Whining! JUST STOP WHINING        ",
       "color": "0xaa0000",
       "animate_time": 0.2,
       "y": 23
     }
   ],
   "clock": {
-    "am_color": "0x00aaaa",
+    "am_color": "0xaa00aa",
     "pm_color": "0xaaaa00"
   },
   "weather": {
