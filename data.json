@@ -1,15 +1,17 @@
 {
   "custom_messages": [
      {
-      "type": "bmp",
-      "text": "/images/tin-6.bmp",
-      "x": 0,
-      "y": 0
-    }, {
-      "type": "bmp",
-      "text": "/images/bear-red.bmp",
-      "x": 32,
-      "y": 0
+      "type": "label",
+      "text": "Good Night",
+      "color": "0x0000aa",
+      "y": 9
+    },
+    {
+      "type": "scrolling_label",
+      "text": "Bear, please stop whining! Stop Whining! JUST STOP WHINING        ",
+      "color": "0xaa0000",
+      "animate_time": 0.2,
+      "y": 23
     }
   ],
   "clock": {
