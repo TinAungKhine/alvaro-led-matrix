@@ -2,12 +2,12 @@
   "custom_messages": [
     {
       "type": "bmp",
-      "text": "/images/tin-5.bmp",
+      "text": "/images/tin-7.bmp",
       "x": 0,
       "y": 0
     },{
       "type": "bmp",
-      "text": "/images/tin-6.bmp",
+      "text": "/images/bear-yellow.bmp",
       "x": 32,
       "y": 0
     },
