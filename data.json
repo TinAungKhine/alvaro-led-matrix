@@ -1,17 +1,6 @@
 {
   "custom_messages": [
-    {
-      "type": "bmp",
-      "text": "/images/bear-cyan.bmp",
-      "x": 0,
-      "y": 0
-    },
-    {
-      "type": "bmp",
-      "text": "/images/tin-6.bmp",
-      "x": 32,
-      "y": 0
-    },
+   
   ],
   "clock": {
     "am_color": "0x000055",
